@@ -15,7 +15,7 @@ pnpm start
 | Method | URL | Description |
 |--------|-----|-------------|
 | GET | `/tasks` | List all tasks |
-| POST | `/tasks` | Create task. Body: `{ "title": "string" }`. Returns full task with `id` and `completed: false`. |
+| POST | `/tasks` | Create task. Body: `{ "title": "string", "completed": false }`. Returns full task with `id` and `completed: false`. |
 | PATCH | `/tasks/:id` | Update task. Body: `{ "completed": boolean }` and/or `{ "title": "string" }`. |
 | DELETE | `/tasks/:id` | Delete task. Returns 204. |
 
