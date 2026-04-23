@@ -40,7 +40,7 @@ Use field:operator=value.
 
 ```json
 {
-  "id": 1,
+  "id": "1",
   "title": "Task title",
   "completed": false
 }
